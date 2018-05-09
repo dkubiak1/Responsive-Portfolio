@@ -148,6 +148,7 @@ section {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    font-size: 1.5vw;
 }
 
 .column {
@@ -186,6 +187,17 @@ section {
     header, #pic, nav {
         display: none;
         }
+        #divBody, {
+            display: block;
+            position: absolute;
+            width: 1000px;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        #divBody {
+        border-image: none; 
+            
+        }
     }
 
     @media screen and (max-width: 1500px) {
@@ -193,7 +205,8 @@ section {
             display: none;
         }
         .row, #divBody {
-            width: 100%;
+            position: relative;
+            width: 50%;
         }
         nav {
             height: 200px;
