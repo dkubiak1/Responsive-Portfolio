@@ -63,8 +63,8 @@ nav {
     clear: both;
 }
 h1 {
-    font-size: 50px;
-    font-size: 4.6vw;
+    font-size: 40px;
+   /* font-size: 4.6vw;*/
     color: black;
 }
 .wrapper {
@@ -149,8 +149,8 @@ section {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    font-size: 36px;
-    font-size: 2.3vw;
+    font-size: 32px;
+    /*font-size: 2.3vw;*/
     width: 800px;
 }
 
